@@ -1,9 +1,19 @@
 module Math 
-  def add(num1, num2)
-    num1 + num2
+
+  def wager
+    @user_bet = gets.strip.to_f
+    @user_bet = num
   end
 
-  def triple(num1)
-    num1 + num1 + num1 
+  def win(num)
+    num + num
+  end
+
+  def lose(num)
+    num - num
+  end
+
+  def quadruple(num)
+    num + num + num + num
   end
 end
